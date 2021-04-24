@@ -16,3 +16,6 @@ spec:
   targetNamespace: default
   values:
     message: This is new one
+  valuesFrom:
+  - kind: ConfigMap
+    name: myconfig
